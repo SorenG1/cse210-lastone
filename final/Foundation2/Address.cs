@@ -19,17 +19,7 @@ public class Address
     //This checks if the address is inside the United States
     public bool IsUsa()
     {
-        return _country.ToLower() == "usa";Principle: Inheritance
-20 pts
-Complete
-All behaviors and attributes, shared among multiple related classes, are placed in a base class and inherited.
-14 pts
-Developing
-Inheritance is used in the program.
-0 pts
-Incomplete
-Inheritance is not used in the program.
-20 pts
+        return _country.ToLower() == "usa";
     }
 
     //this returns the full address as a string
